@@ -4,7 +4,7 @@ Este repositório reúne os projetos, exercícios e anotações dos cursos reali
 
 A iniciativa tem como missão incentivar e empoderar mulheres na tecnologia, promovendo uma formação técnica acessível, acolhedora e transformadora. Aqui você vai encontrar meu passo a passo de evolução. 🚀✨
 
----
+
 
 ## 📚 Cursos realizados
 
