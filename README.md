@@ -10,7 +10,7 @@ A iniciativa tem como missão incentivar e empoderar mulheres na tecnologia, pro
 
 - 📘 **Descomplicando o Go**
   - Fundamentos da linguagem Go e lógica de programação com exemplos práticos.
-  - [Link para a pasta](./descomplicando-go)
+  - [Link para a pasta](./descomplicando-o-go)
 
 <!-- Exemplo para futuros cursos -->
 <!-- 
