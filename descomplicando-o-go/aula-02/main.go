@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	// Retorna uma tupla com dois valores
+	// Retorna múltiplos valores (não é uma tupla, pois cada valor precisa ser armazenado em uma variável diferente)
 	// A função Open retorna um ponteiro para o arquivo e um erro
 	arquivo, err := os.Open("arquivo.txt")
 
