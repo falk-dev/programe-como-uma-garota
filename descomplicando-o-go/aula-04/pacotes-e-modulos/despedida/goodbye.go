@@ -2,6 +2,6 @@ package goodbye
 
 import "fmt"
 
-func sayGoodbye() {
+func SayGoodbye() {
 	fmt.Println("Goodbye.")
 }
