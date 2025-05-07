@@ -4,6 +4,5 @@ import "gorm.io/gorm"
 
 type User struct {
 	gorm.Model
-	id   int
-	name string
+	Name string
 }
