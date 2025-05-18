@@ -2,14 +2,14 @@ package users
 
 import "gorm.io/gorm"
 
-func Create(db *gorm.DB, name string) uint {
+func Create(name string) uint {
 	user := new(User)
 	user.Name = name
 	db.Create(user)
 	return user.ID
 }
 
-func Update(db *gorm.DB, id uint, name string) {
+func Update(id uint, name string) {
 	var user User
 	db.First(&user, id)
 	db.Model(&user).Update("Name", name)
@@ -21,6 +21,6 @@ func List(db *gorm.DB) []User {
 	return users
 }
 
-func Delete(db *gorm.DB, id uint) {
+func Delete(id uint) {
 	db.Delete(&User{}, id)
 }
